@@ -1,4 +1,3 @@
-from collections import OrderedDict
 
 def set_let(l, count_dict):
     def value(e1):
@@ -18,7 +17,7 @@ def sort_index(l2, index= 0):
     c1 = sorted(count_dict.items())
     return s1,c1
 
-
+# this can be a reccursive function will update this.
 def solution(l):
     final_list = []
     f1, c1 = sort_index(l,index=0)
